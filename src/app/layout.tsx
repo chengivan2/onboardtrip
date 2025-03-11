@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Onboard Trip",
-  description: "Onboard clients faster",
+  description: "Create trips faster",
 };
 
 export default function RootLayout({
