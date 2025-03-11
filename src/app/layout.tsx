@@ -29,15 +29,16 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="fixed top-4 right-4 z-50">
-          <ThemeToggle />
-        </div>
+        
         <ThemeProvider
             attribute="class"
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
           >
+            <div className="fixed top-4 right-4 z-50">
+          <ThemeToggle />
+        </div>
             {children}
           </ThemeProvider>
       </body>
